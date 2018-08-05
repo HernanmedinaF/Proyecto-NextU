@@ -10,7 +10,7 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
 		<title>Educación</title>
 	</head>
-	<!--La información Ingresada es aleatoria, ya que se pone para completar el formulario, No es la correcta-->
+	<!--La información Ingresada es aleatoria-->
 	<!--Se realiza asi por seguridad de la información personal-->
 	<body>
 		<header>
@@ -47,7 +47,7 @@
 					<td>Next U</td><!-- Institución Estudio-->
 					<td>Programador WEB</td><!-- Titulo Estudio-->
 					<td>Virtual</td><!-- Lugar Estudio-->
-					<td>En Proceso</td><!-- ¿Culmino? Estudio-->
+					<td>En Curso</td><!-- ¿Culmino? Estudio-->
 				</tr>
 				<tr>
 					<td>2018</td><!-- Año Estudio-->
@@ -84,12 +84,12 @@
 			  	<p>
 					<label for="ano_educacion">Año de Estúdio: </label>
 					<br>
-					<select name="ano_educacion" >
+					<select name="ano_educacion">
 						<option>1990</option>
 						<option>1991</option>
 						<option>1992</option>
-						<option selected>1993</option>
-						<option>1994</option>
+						<option>1993</option>
+						<option selected>1994</option>
 						<option>1995</option>
 						<option>1996</option>
 						<option>1997</option>
@@ -113,39 +113,18 @@
 				<p>
 					<label for="lugar_educa">Lugar: </label>
 					<br>
-					<textarea id="lugar_educa" name="lugar_educa" placeholder="Ejemplo: lugar de la educación" required>
+					<textarea id="lugar_educa" name="lugar_educa">
 					</textarea>
 				</p>
 				<p>
 					<label for="culmino">¿Culmino?: </label>
 					<br>
-					<input type="radio" name="genre"> Si
-					<br>
-					<input type="radio" name="genre"> Femenino
+					<input type="radio" name="culmino"> Si
+					<input type="radio" name="culmino"> No
+					<input type="radio" name="culmino"> En Curso
 				</p>
 				<p>
-					<label for="recommend">Recomendado por: </label>
-					<br>
-					<select name="recommend">
-						<option value="1">Google</option>
-						<option value="1">Amigo</option>
-						<option value="1">Redes Sociales</option>
-					</select>
-				</p>
-				<p>
-					<label for="comment">Comentarios: </label>
-					<br>
-					<textarea name="comment" id="" cols="30" rows="3"></textarea>
-				</p>
-
-				<p>
-					<label for="accept">Acepto términos y condiciones: </label>
-					<br>
-					<input type="checkbox" name="accept">
-				</p>
-
-				<p>
-					<input type="submit" value="Registrar">
+					<input type="submit" value="Enviar">
 				</p>
 			</form>
 		</section>
